@@ -1,0 +1,10 @@
+fn main() {
+    let x=123;
+    let s=0;
+    while x
+    {
+        s=s*10+x%10;
+        x=x/10;
+    }
+        println!("reverse of a number={}",s)
+    }
